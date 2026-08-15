@@ -5,3 +5,12 @@
 .gallery-upload-panel p{margin:0;max-width:760px;font-size:13px;line-height:1.6;opacity:.72}
 .gallery-upload-panel code{color:#d7ad62}
 .upload-btn{cursor:pointer;white-space:nowrap}
+.hero {
+  background-image:
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url("assets/images/a_wide_ultra_detailed_architectural_scene_of_a_so.png") !important;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
