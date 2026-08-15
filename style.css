@@ -14,22 +14,28 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-.hero-brand-title {
-  display: inline-block !important;
+.hero-content .hero-brand-title {
+  display: block !important;
+
   font-family: Inter, Arial, sans-serif !important;
-  font-size: clamp(44px, 5.5vw, 82px) !important;
+  font-size: clamp(30px, 3.2vw, 52px) !important;
   font-weight: 900 !important;
-  letter-spacing: 0.08em !important;
-  line-height: 0.95 !important;
+
+  line-height: 1 !important;
+  letter-spacing: 0.16em !important;
+
+  color: #d7a642 !important;
+
+  margin: 0 0 18px 0 !important;
+  padding: 0 0 14px 0 !important;
+
+  width: fit-content !important;
+
+  border-bottom: 3px solid #d7a642 !important;
+
   text-transform: uppercase !important;
-  color: #f7f0df !important;
-  -webkit-text-stroke: 1px rgba(201, 154, 61, 0.75);
-  background: rgba(8, 8, 8, 0.58);
-  border-left: 5px solid #c99a3d;
-  border-top: 1px solid rgba(201,154,61,.45);
-  border-bottom: 1px solid rgba(201,154,61,.45);
-  padding: 18px 26px 20px 24px !important;
-  margin: 0 0 26px 0 !important;
-  box-shadow: 0 18px 45px rgba(0,0,0,.35);
-  backdrop-filter: blur(4px);
+
+  text-shadow:
+    0 3px 15px rgba(0,0,0,.8),
+    0 0 25px rgba(215,166,66,.20) !important;
 }
