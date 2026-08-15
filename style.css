@@ -49,3 +49,9 @@
     margin-top: 25px;
     border-radius: 0;
 }
+.contact-card a[href^="tel:"] {
+    font-family: Arial, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+}
