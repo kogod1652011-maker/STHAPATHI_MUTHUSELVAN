@@ -116,3 +116,34 @@
     grid-template-columns: 1fr;
   }
 }
+/* STHAPATHI APPROVAL DETAILS */
+
+.approval-info {
+  margin-top: 55px;
+  padding: 28px 32px;
+  border-left: 3px solid #d7a642;
+  max-width: 520px;
+}
+
+.approval-info h3 {
+  margin: 0 0 16px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #b07a22;
+  letter-spacing: 1px;
+}
+
+.approval-info p {
+  margin: 6px 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.approval-info p:last-child {
+  margin-top: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
