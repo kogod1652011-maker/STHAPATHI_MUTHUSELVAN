@@ -55,3 +55,64 @@
     font-weight: 500 !important;
     letter-spacing: 0 !important;
 }
+.signature-projects {
+  background: #0b0b0b;
+  color: #f5f1e8;
+}
+
+.signature-project-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.signature-project-list article {
+  background: #11100e;
+  padding: 34px 30px;
+  min-height: 220px;
+  border: 1px solid rgba(201, 154, 61, 0.18);
+}
+
+.signature-project-list article > span {
+  display: block;
+  color: #d7a642;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  margin-bottom: 26px;
+}
+
+.signature-project-list h3 {
+  margin: 0 0 14px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  line-height: 1.1;
+  color: #f7f1e7;
+}
+
+.signature-project-list p {
+  margin: 0 0 14px;
+  color: #c9bfae;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.signature-project-list small {
+  display: block;
+  color: #d7a642;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 1000px) {
+  .signature-project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .signature-project-list {
+    grid-template-columns: 1fr;
+  }
+}
